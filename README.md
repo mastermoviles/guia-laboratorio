@@ -254,13 +254,22 @@ _a\)_ Crea un repositorio en tu cuenta personal a partir del siguiente enlace: [
 
 _b\)_ Obten desde la web de GitHub la URL de tipo HTTPS del repositorio, y utilízala para clonarlo desde la terminal de MacOS en el directorio _Desktop_.
 
-_d\)_ Crea un fichero de texto en el directorio del proyecto al que llamaremos `README.md` con el siguiente texto.
+```bash
+> git clone [URL]
+```
+
+_c\)_ Crea un fichero de texto en el directorio raíz del proyecto al que llamaremos `README.md` con el siguiente texto.
 
 ```text
 # Primera version del proyecto
 ```
 
-_e\)_ Añade el fichero anterior al sistema de control de versiones y haz el primer _commit_ con mensaje _Initial commit_.
+_d\)_ Añade el fichero anterior al sistema de control de versiones y haz el primer _commit_ con mensaje _Initial commit_.
+
+```bash
+> git add .
+> git commit -m "Initial commit"
+```
 
 _f\)_ Añade una segunda linea al fichero anterior, para que quede como se muestra a continuación:
 
@@ -270,6 +279,11 @@ _f\)_ Añade una segunda linea al fichero anterior, para que quede como se muest
 ```
 
 _g\)_ Haz otro _commit_ con el mensaje _Texto modificado_ y posteriormente haz un _push_ al servidor.
+
+```bash
+> git add .
+> git commit -a -m "Texto modificado"
+```
 
 _h\)_ Comprueba en GitHub que el proyecto se ha subido. Explora desde la web los ficheros de fuentes y los diferentes _commits_ que se han realizado, viendo para cada uno la versión correspondiente del fichero de fuentes.
 
