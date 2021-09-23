@@ -63,7 +63,7 @@ Para **comprimir** ficheros simplemente seleccionaremos los ficheros en el escri
 
 Podremos **descomprimir** ficheros `zip` simplemente haciendo doble _click_ sobre ellos.
 
-Para descomprimir otros tipos de ficheros \(+7z+, +rar+, etc\) se incluye la herramienta gratuita _Unarchiver_.
+Para descomprimir otros tipos de ficheros \(7z, rar, etc\) se incluye la herramienta gratuita _Unarchiver_.
 
 #### Abrir aplicaciones con _spotlight_
 
