@@ -63,7 +63,7 @@ Para **comprimir** ficheros simplemente seleccionaremos los ficheros en el escri
 
 Podremos **descomprimir** ficheros `zip` simplemente haciendo doble _click_ sobre ellos.
 
-Para descomprimir otros tipos de ficheros \(+7z+, +rar+, etc\) se incluye la herramienta gratuita _Stuffit Expander_.
+Para descomprimir otros tipos de ficheros \(+7z+, +rar+, etc\) se incluye la herramienta gratuita _Unarchiver_.
 
 #### Abrir aplicaciones con _spotlight_
 
@@ -139,7 +139,7 @@ Vamos a ver cómo crear un repositorio privado en GitHub que vincularemos con nu
 
    > Es conveniente darse de alta con una cuenta de tipo `@alu.ua.es`, ya que de este modo obtendremos una cuenta académica GitHub Pro. Podemos solicitar la licencia académica entrando en [https://education.github.com](https://education.github.com) y pulsando sobre _Get benefits_
 
-2. Aunque podemos crear repositorios propios, lo que haremos habitualmente será crearlos a partir de enlaces suministrados por el profesorado del máster, como el siguiente \(deberemos estar logueados con nuestra cuenta GitHub al pulsar sobre el enlace\): [https://classroom.github.com/a/THNyXf1V](https://classroom.github.com/a/THNyXf1V)
+2. Aunque podemos crear repositorios propios, lo que haremos habitualmente será crearlos a partir de enlaces suministrados por el profesorado del máster, como el siguiente \(deberemos estar logueados con nuestra cuenta GitHub al pulsar sobre el enlace\): [https://classroom.github.com/a/omiW-GPb](https://classroom.github.com/a/omiW-GPb)
 3. Tras introducir dicha URL, nos pedirá aceptar el trabajo:
 
 ![Creaci&#xF3;n del repositorio GitHub](.gitbook/assets/github_accept.png)
@@ -165,7 +165,7 @@ La forma más sencilla de crear un repositorio Git local es hacerlo directamente
 git clone https://github.com/mastermoviles/[nombre-proyecto]-[usr].git
 ```
 
-Este comando podemos copiarlo directamente desde bitbucket, tal como hemos visto en el último paso del apartado anterior \(opción _Clone_ de la interfaz del repositorio\).
+La URL del repositorio podemos copiarla directamente desde GitHub, tal como hemos visto en el último paso del apartado anterior \(opción _Clone_ de la interfaz del repositorio\).
 
 De esta forma se crea en nuestro ordenador el directorio `[nombre-proyecto]-[usr]` y se descarga en él el contenido del proyecto, en caso de no estar vacío el repositorio remoto. Además, quedará configurado como repositorio Git local y conectado de forma automática con el repositorio git remoto del que lo hemos clonado.
 
@@ -219,7 +219,7 @@ Tras añadir el `.gitignore` correcto para nuestro tipo de proyecto podremos añ
    $ git push origin master
    ```
 
-4. Cada vez que el proyecto alcance un estado estable podremos hacer _push_ para subir los cambios a bitbucket, indicando el nombre del repositorio remoto \(`origin`\) y la rama a la que se subirá \(`master` por defecto\)
+4. Cada vez que el proyecto alcance un estado estable podremos hacer _push_ para subir los cambios a GitHub, indicando el nombre del repositorio remoto \(`origin`\) y la rama a la que se subirá \(`master` por defecto\)
 
    ```text
    $ git push origin master
@@ -227,7 +227,6 @@ Tras añadir el `.gitignore` correcto para nuestro tipo de proyecto podremos añ
 
 Con esto se subirán al repositorio todos los _commits_ que estuviesen pendientes de enviar el repositorio remoto.
 
-\*\*\*\*
 
 #### Actualización del repositorio local
 
@@ -243,7 +242,7 @@ Esto será especialmente útil si se trabaja en el proyecto o en los ejercicios 
 
 ### Ejercicios
 
-#### Creación de una cuenta bitbucket
+#### Creación de una cuenta GitHub
 
 Crea un cuenta personal de GitHub para utilizar en el máster \(si no dispones ya de una\). Utiliza como nombre de usuario el **nombre de usuario de UACloud** o uno similar, para poder identificar correctamente los ejercicios que entregues.
 
