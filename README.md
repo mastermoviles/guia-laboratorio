@@ -4,7 +4,7 @@
 
 ### Inicio del sistema desde un disco externo en Mac
 
-Con el máster se proporciona un disco externo con el sistema MacOS Big Sur con todo el software que utilizaremos durante el curso preinstalado.
+Con el máster se proporciona un disco externo con el sistema MacOS Ventura con todo el software que utilizaremos durante el curso preinstalado.
 
 Se trata de discos de arranque externos, que **sólo podrán ser utilizados desde ordenadores Mac**. Para iniciar el sistema desde estos discos deberemos seguir los siguientes pasos:
 
